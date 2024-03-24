@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Hot Air Balloon</title>
+<style>
+  /* Add CSS styles for positioning and styling the balloon */
+  .container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .balloon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+  }
+  .birthday-wishes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- SVG hot air balloon -->
+  <svg class="balloon" width="150" height="200" viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="75" cy="75" r="75" fill="#ffcc00"/>
+    <polygon points="75,150 50,200 100,200" fill="#ff6633"/>
+    <ellipse cx="75" cy="175" rx="10" ry="20" fill="#333333"/>
+  </svg>
+  <!-- Birthday wishes -->
+  <div class="birthday-wishes">
+    <h1>Happy Birthday!</h1>
+    <p>Wishing you a day filled with joy, laughter, and wonderful surprises!</p>
+    <p>May all your dreams and wishes come true!</p>
+    <p>With love,</p>
+    <p>Your Name</p>
+  </div>
+</div>
+</body>
+</html>
